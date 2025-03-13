@@ -4,7 +4,7 @@ import java.util.*;
 
 public class exercicio7 {
     public static void main(String[] args) {
-        int cod, saida;
+        int cod;
 
         Scanner sc = new Scanner(System.in);
         
