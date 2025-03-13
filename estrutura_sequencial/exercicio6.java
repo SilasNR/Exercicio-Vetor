@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class exercicio6 {
     public static void main(String[] args) {
-        float lado1, lado2, lado3, result;
+        float lado1, lado2, lado3;
 
         Scanner sc = new Scanner(System.in);
 
