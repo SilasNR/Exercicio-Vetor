@@ -2,7 +2,7 @@ package estrutura_sequencial;
 
 import java.util.Scanner;
 
-public class execericio4 {
+public class exercicio4 {
     public static void main(String[] args) {
         int maior, proximo;
 
