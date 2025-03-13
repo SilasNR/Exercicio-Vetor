@@ -2,7 +2,7 @@ package estrutura_sequencial;
 
 import java.util.Scanner;
 
-public class exercico2 {
+public class exercicio2 {
     public static void main(String[] args) {
         float valorKg, quantKg, valorTotal;
 
