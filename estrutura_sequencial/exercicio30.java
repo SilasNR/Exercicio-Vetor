@@ -1,6 +1,6 @@
 package estrutura_sequencial;
 
-public class exercicio28 {
+public class exercicio30 {
     public static void main(String[] args) {
         int a[] = { 32, 45, 89, 66, 12, 35, 10, 96, 38, 15, 13, 11, 65, 81, 35, 64, 16, 89, 54, 19 };
 
@@ -11,12 +11,13 @@ public class exercicio28 {
         int i;
         String saida = "";
 
-        for (i = 0; i < n ; i++) {
+        for (i = 0; i < n; i++) {
             if (i != 0 && i != 19) {
-                if (((a[i-1] + a[i+1])/2) == a[i]) {
-                    b = b + " " + i;
-                }
+                b = b + " " + ((a[i - 1] + a[i] + a[i + 1]) / 3);
+            }else{
+                b = b + " " + a[i];
             }
+
         }
         saida = "Resposta: " + b + "\nFim.";
         System.out.println(saida);
